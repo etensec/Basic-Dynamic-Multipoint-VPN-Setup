@@ -1,0 +1,372 @@
+R7>en
+R7#
+R7#
+R7#
+R7#tclsh 
+R7(tcl)#foreach ipaddr {
++>(tcl)#123.1.1.1
++>(tcl)#123.1.10.1
++>(tcl)#192.168.127.1
++>(tcl)#123.1.1.2
++>(tcl)#123.1.10.2
++>(tcl)#192.168.127.2
++>(tcl)#123.1.1.3
++>(tcl)#172.16.30.3
++>(tcl)#192.168.127.3
++>(tcl)#177.7.7.5
++>(tcl)#172.16.30.5
++>(tcl)#192.168.127.5
++>(tcl)#177.7.7.7
++>(tcl)#177.7.7.137
++>(tcl)#192.168.127.7
++>(tcl)#177.7.7.8
++>(tcl)#177.7.7.138
++>(tcl)#192.168.127.8
++>(tcl)#199.9.9.9
++>(tcl)#172.16.30.9
++>(tcl)#192.168.127.9
++>(tcl)#199.9.9.10
++>(tcl)#192.168.127.10
++>(tcl)#172.16.30.11
++>(tcl)#192.168.127.11
++>(tcl)#11.11.11.11
++>(tcl)#192.168.127.12
++>(tcl)#12.12.12.12
++>(tcl)#} { ping $ipaddr}
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 123.1.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 6/6/8 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 123.1.10.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 6/6/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 6/6/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 123.1.1.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 6/6/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 123.1.10.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 6/6/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 6/6/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 123.1.1.3, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/5/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.30.3, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 4/5/6 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.3, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/5/6 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 177.7.7.5, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.30.5, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.5, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 177.7.7.7, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 177.7.7.137, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.7, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 177.7.7.8, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 177.7.7.138, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.8, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 199.9.9.9, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/5/6 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.30.9, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 3/5/6 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.9, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/8/15 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 199.9.9.10, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 6/6/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.10, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/6/8 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.30.11, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 4/4/5 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.11, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/5/6 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 11.11.11.11, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/5/6 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.127.12, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 5/5/7 ms
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 12.12.12.12, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 4/5/7 ms
+R7(tcl)#
+R7(tcl)#
+R7(tcl)#
+R7(tcl)#exit
+R7#
+R7#
+R7#sh run
+Building configuration...
+
+Current configuration : 3209 bytes
+!
+version 15.9
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R7
+!
+boot-start-marker
+boot-end-marker
+!
+!
+logging buffered 70000
+no logging console
+!
+no aaa new-model
+!
+!
+!
+clock timezone CDT -5 0
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+redundancy
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ no ip address
+!
+interface Loopback1
+ ip address 192.168.127.7 255.255.255.255
+!
+interface GigabitEthernet0/0
+ ip address 177.7.7.7 255.255.255.192
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/1
+ ip address 177.7.7.137 255.255.255.192
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/2
+ no ip address
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/3
+ no ip address
+ duplex auto
+ speed auto
+ media-type rj45
+!
+router ospf 1
+ network 177.7.7.0 0.0.0.63 area 1
+ network 177.7.7.128 0.0.0.63 area 1
+ network 192.168.127.7 0.0.0.0 area 1
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+!
+ipv6 ioam timestamp
+!
+!
+!
+control-plane
+!
+banner exec ^CCCC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner incoming ^CCCC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+banner login ^CCCC
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************^C
+!
+line con 0
+ exec-timeout 0 0
+line aux 0
+line vty 0 4
+ exec-timeout 0 0
+ login
+ transport input none
+!
+no scheduler allocate
+!
+end
+
+R7# 
+R7#
+R7#
+R7#sh dmvpn | begin peers
+R7#sh dmvpn | begin Peers
+R7#
+R7#
+R7#
+R7#sh ip route
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       a - application route
+       + - replicated route, % - next hop override, p - overrides from PfR
+
+Gateway of last resort is not set
+
+      11.0.0.0/32 is subnetted, 1 subnets
+O        11.11.11.11 [110/1002] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+      12.0.0.0/32 is subnetted, 1 subnets
+O        12.12.12.12 [110/1002] via 177.7.7.5, 00:55:35, GigabitEthernet0/0
+      123.0.0.0/24 is subnetted, 2 subnets
+O        123.1.1.0 [110/1002] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O        123.1.10.0 [110/1003] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+      172.16.0.0/24 is subnetted, 1 subnets
+O        172.16.30.0 [110/1002] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+      177.7.0.0/16 is variably subnetted, 4 subnets, 2 masks
+C        177.7.7.0/26 is directly connected, GigabitEthernet0/0
+L        177.7.7.7/32 is directly connected, GigabitEthernet0/0
+C        177.7.7.128/26 is directly connected, GigabitEthernet0/1
+L        177.7.7.137/32 is directly connected, GigabitEthernet0/1
+      192.168.127.0/32 is subnetted, 10 subnets
+O        192.168.127.1 [110/1003] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O        192.168.127.2 [110/1003] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O        192.168.127.3 [110/1002] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O        192.168.127.5 [110/2] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+C        192.168.127.7 is directly connected, Loopback1
+O        192.168.127.8 [110/2] via 177.7.7.8, 00:55:45, GigabitEthernet0/0
+O        192.168.127.9 [110/1002] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O        192.168.127.10 [110/1003] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O        192.168.127.11 [110/1002] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O        192.168.127.12 [110/1002] via 177.7.7.5, 00:55:35, GigabitEthernet0/0
+O     199.9.9.0/24 [110/1002] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+O     200.16.1.0/24 [110/1001] via 177.7.7.5, 00:55:45, GigabitEthernet0/0
+R7#
+R7#
+R7#
+R7#sh ip ospf neighbor
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+192.168.127.5     1   FULL/DROTHER    00:00:36    177.7.7.5       GigabitEthernet0/0
+192.168.127.8     1   FULL/DR         00:00:37    177.7.7.8       GigabitEthernet0/0
+R7#
+R7#
+R7#
+R7#sh crypto isakmp sa
+IPv4 Crypto ISAKMP SA
+dst             src             state          conn-id status
+
+IPv6 Crypto ISAKMP SA
+
+R7#
+R7#
+R7#
